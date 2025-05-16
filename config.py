@@ -1,5 +1,5 @@
 # ウィンドウの初期サイズ
-INIT_WINDOW_WIDTH = 800
+INIT_WINDOW_WIDTH = 600
 INIT_WINDOW_HEIGHT = 600
 
 # ウィンドウの初期位置
@@ -9,3 +9,10 @@ INIT_WINDOW_POS_Y = 0
 # ウィンドウの最小サイズ
 MIN_WINDOW_WIDTH = 100
 MIN_WINDOW_HEIGHT = 100
+
+# 色設定
+COLOR_DICT = {"Green":{"Dark": '#91AF91', "Light": "#B6DFB6"}}
+
+# 描画設定
+SPACE = 20
+SQUARE_SIZE = 50

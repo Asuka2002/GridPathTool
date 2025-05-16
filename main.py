@@ -2,7 +2,8 @@ import tkinter as tk
 from tkinter import ttk
 from config import *
 from models.board_model import *
-from views.board_view import * 
+from views.board_view import *
+from controllers.grid_controller import *
 
 class GridPathTool():
     def __init__(self):
@@ -17,11 +18,13 @@ class GridPathTool():
         self.root.minsize(MIN_WINDOW_WIDTH, MIN_WINDOW_HEIGHT)
         
         # モデル作成
-        self.board_model = BoardModel(30, 30)
+        self.board_model = BoardModel(15, 15)
         
         # ビュー作成
         self.board_view = BoardView(self.root, self.board_model)
         
+        # コントローラー作成
+        self.grid_controller = GridController(self.board_model, self.board_view)       
     
     
         self.root.mainloop()
