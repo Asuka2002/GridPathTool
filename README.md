@@ -3,6 +3,10 @@
 ## 開発環境
 - python 3.10.14
 - tkinter 8.6.14
+## 実行方法
+```
+python main.py
+``` 
 ## 仕様
 <img src="./img/img1.png" width="400px">
 ドラッグ：パスを引く  
